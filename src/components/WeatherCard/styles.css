@@ -1,0 +1,53 @@
+.card {
+    border-style: solid;
+    margin: 20px;
+    border-radius: 40px;
+    background-color: rgb(64, 41, 143);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    
+}
+
+.temp {
+    /* background-color: red; */
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    font-size: 70px;
+    
+}
+
+.city {
+    /* background-color: red; */
+    grid-column: 1;
+    grid-row: 3;
+    margin-left: 20px;
+    
+}
+
+.desc {
+   /*  background-color: red; */
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.icon {
+   /*  background-color: red; */
+    grid-column: 2 / 3;
+    grid-row: 1;
+    height: 200px;
+    width: auto;
+}
+
+.delete {
+    /* background-color: red; */
+    grid-column: 2;
+    grid-row: 1;
+    margin-left: 150px;
+    margin-top: 10px;
+    width: 70px;
+}
+
+select{
+    height: 30px;
+}

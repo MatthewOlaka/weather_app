@@ -1,0 +1,48 @@
+body{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    background-color: rgb(42,35,77);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    color: white;
+}
+h2{
+    color: white;
+}
+p{
+    color: white;
+}
+
+button{
+    height: 40px;
+    width: 40%;
+    color: white;
+    background-color: rgb(25, 25, 146);
+    border-radius: 20px;
+    border-width: 1px;
+}
+
+.searchButton{
+    height: 40px;
+    width: 40px;
+    color: white;
+    background-color: rgb(87, 59, 176);
+    border-radius: 20px;
+    margin: 10px;
+}
+
+
+input{
+    height: 30px;
+    width: 70%;
+    border-radius: 20px;
+    border-width: 0px;
+    padding-left: 20px;
+}
+
+
